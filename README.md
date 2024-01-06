@@ -4,6 +4,7 @@ following:
  * Helm subcharts (`dependencies` in `Chart.yaml`)
  * Helmfile charts (template actions are not evaluated)
  * Skaffold charts (both `manifest` and `deploy`)
+ * DevSpace charts
 
 ## Usage
 ```shell

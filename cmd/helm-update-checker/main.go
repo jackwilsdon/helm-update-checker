@@ -24,6 +24,7 @@ var chartReaders = map[string]func(r io.Reader) ([]chart, error){
 	"Chart.yaml":    readHelmSubcharts,
 	"helmfile.yaml": readHelmfileCharts,
 	"skaffold.yaml": readSkaffoldCharts,
+	"devspace.yaml": readDevSpaceCharts,
 }
 
 // getCharts returns all charts in the provided path.
